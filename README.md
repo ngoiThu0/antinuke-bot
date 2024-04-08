@@ -9,3 +9,17 @@
     b. create role/channel/webhook (counting)
     c. kick/ban members (couting)
 
+===============================================================
+
+# Commmands
+antispam: ngoiThu0
+whilelist, unwhilelist: ngoiThu0
+blacklist, unblacklist: ngoiThu0
+linkspam: ngoiThu0
+ban/kick/muteL: ysnx
+infoserver: ysnx
+help/support: ysnx
+infouser: ysnx
+channelcreatespam/channeldeletespam: ysnx
+rolecreatespam/roledeletespam: ngoiThu0
+webhookcreatespam/webhookdeletespam: ngoiThu0
