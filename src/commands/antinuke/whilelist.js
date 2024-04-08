@@ -1,5 +1,7 @@
 // whilelist command
-const { PermissionsBitField } = require("discord.js")
+const { PermissionsBitField } = require("discord.js");
+const { successEmbed } = require("../../../../js bot/test/src/lib/EmbedMessages");
+
 
 module.exports = {
     name: 'whilelist',
