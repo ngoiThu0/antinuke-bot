@@ -5,11 +5,11 @@ const loadAllFiles = require("../utils/loadAllFiles");
 
 module.exports = (bot) => {
     const eventPaths = loadAllFiles(path.join(__dirname, '..', 'events'), true);
-    console.log(eventPaths);
+    // console.log(eventPaths);
     
     eventPaths.forEach(eventPath => {
         const eventName = eventPath.replace(/\\/g, '/').split('/').pop('');
-        console.log(eventName);
+        // console.log(eventName);
 
         bot.on(eventName, async (arg) =>{
             const eventFiles = loadAllFiles(eventPath);
